@@ -4,6 +4,7 @@ body{
 }
 main{
    margin: 20px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-color: #1e024b;
@@ -37,4 +38,30 @@ footer{
 .col{
     display: flex;
     gap: 20px;  
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid{
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.image{
+justify-content: center;
+display: flex;
+}
+img{
+    border-radius: 10%;
+}
+#about{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#projects{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
 }
