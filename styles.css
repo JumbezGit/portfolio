@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+   margin: 20px;
+}
+header{
+    background-color: #1e024b;
+    padding: 20px;
+    margin-top:0
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: #ffffff;
+    gap: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+    gep: 20px;
+}
+.tittle{
+    text-align:center;
+}
+footer{
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+}
+.col{
+    display: flex;
+    gap: 20px;  
+}
