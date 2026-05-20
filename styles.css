@@ -54,8 +54,15 @@ display: flex;
 img{
     border-radius: 10%;
 }
-#about, #projects{
+#about, #about{
     background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}
+#projects{
+    background-color: #f4f4f4;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
